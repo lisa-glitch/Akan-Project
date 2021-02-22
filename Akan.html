@@ -4,50 +4,27 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css"/>
   <title>Akan</title>
 </head>
 <body>
-  <div class="container">
-    <div class="jumbotron">
-      <div class="card bg-info">
-      <h1>Akan Names</h1>
-      <p>The Akan naming system comes from the Ghanian culture. Every child is given a day name and it corresponds to a day of the week when the child was born. This application enables you to input your birthday and according to your birthday, reveal your Akan name</p>
+  <div class="background">
+    <div class="header">
+      <h1><strong>Akan Names</strong></h1>
+    </div>
+    <div class="container show d-flex justify-content-center">
+      <div class="card d-flex">
+        <p>The Akan naming system from Ghana names children according to the day of the week they were born. Reveal your Akan name by entering your birthday below. Enjoy</p>
       </div>
     </div>
-  </div>
-  <div class="container">
-    <div class="card-title">
-      <h2>Male Names</h2>
-  </div>
-        <ul>
-          <li>Sunday:Kwasi</li>
-          <li>Monday:Kwadwo</li>
-          <li>Tuesday:Kwabena</li>
-          <li>Wednesday:Kwaku</li>
-          <li>Thursday:Yaw</li>
-          <li>Friday:Kofi</li>
-          <li>Saturday: Kwame</li>
-        </ul>
-  </div>
-  <div class="container">
-    <div class="card-title">
-      <h2>Female Names</h2>
+    <div class="form">
+      <label class="form-label" for="birthDay">Birthday:</label>
+      <select class="form-control" type="date" id="date"></select>
+
+  
     </div>
-        <ul>
-          <li>Sunday:Kwasi</li>
-          <li>Monday:Adwoa</li>
-          <li>Tuesday:Abenaa</li>
-          <li>Wednesday:Akua</li>
-          <li>Thursday:Yaa</li>
-          <li>Friday:Afua</li>
-          <li>Saturday:Ama</li>
-        </ul>
   </div>
-<div class="container">
-  <div class="row">
-    
-  </div>
-</div>
+
 </body>
 </html>
