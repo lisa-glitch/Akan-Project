@@ -14,3 +14,13 @@ var year = parseInt(birthDate.slice(0, 4));
 if (birthDay <= O || birthDay > 31 || birthMonth <= 0 || birthMonth > 12) {
   alert("You entered an invalid date.");
 }
+var weekDays;
+weekDays = [
+  "Sunday",
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday",
+];
