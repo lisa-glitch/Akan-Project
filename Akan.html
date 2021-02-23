@@ -18,13 +18,29 @@
         <p>The Akan naming system from Ghana names children according to the day of the week they were born. Reveal your Akan name by entering your birthday below. Enjoy</p>
       </div>
     </div>
-    <div class="form">
-      <label class="form-label" for="birthDay">Birthday:</label>
-      <select class="form-control" type="date" id="date"></select>
+    <div class="card1 d-flex justify-content-center">
+      <form class="form">
+        <label class="form-label" for="birthDay">Birthday:</label>
+        <input class="form-control" type="date" id="date"></input>
+        <br>
+        <label class="form-label" for="gender">Gender:</label>
+        <select class="form control" id="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option></select>
+        <input class="mt-3" type="button" value="Submit" onclick="akan()">
+        <br>
+      </form>
+    </div>
+    <div class="card2">
+      <div id="output" style="color: #ffff;"></div>
+    </div>
+    
 
+    
   
     </div>
   </div>
+  <script src="js/scripts.js"></script>
 
 </body>
 </html>
