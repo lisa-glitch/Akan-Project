@@ -24,3 +24,5 @@ weekDays = [
   "Friday",
   "Saturday",
 ];
+var maleNames;
+maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
