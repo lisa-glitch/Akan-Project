@@ -28,3 +28,8 @@ var maleNames;
 maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 var femaleNames;
 femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+
+let getDate = new Date(year, birthMonth, birthDay);
+let dayNum = getDate.getDay();
+let dayName = weekDays[dayNum];
+console.log(dayName);
