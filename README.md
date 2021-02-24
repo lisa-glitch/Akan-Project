@@ -10,7 +10,7 @@ The Akan naming system of Ghana gives children names according to the day they w
 
 ## Setup/Installation Requirements
 
-- Go to the app using the link
+- Go to the app using the link https://lisa-glitch.github.io/Akan-Project/
   -Input your date of birth from the calendar
   -Input your gender
   -Click on Submit
