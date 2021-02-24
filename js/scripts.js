@@ -1,4 +1,5 @@
 function akan() {
+  event.preventDefault();
   var birthDate = document.getElementById("date").value;
   var gender = document.getElementById("gender").value;
   console.log("birthDate");
